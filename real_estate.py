@@ -16,6 +16,7 @@ MAX_PRICE = 100_000_000
 MIN_KITCHEN = 3  # Outlier range for kitchen area
 MAX_KITCHEN = 70
 
+NEEDED_PARAM = None
 
 def clean_data(input_path: str,) -> pd.DataFrame:
     """Function removes excess columns and enforces
