@@ -1,5 +1,6 @@
 import pandas as pd
 from pathlib import Path
+import numpy
 
 FILE_NAME = "train.csv"
 CUR_DIR = Path(__file__).resolve().parent
