@@ -18,6 +18,7 @@ MAX_KITCHEN = 70
 
 NEEDED_PARAM = None
 
+
 def clean_data(input_path: str,) -> pd.DataFrame:
     """Function removes excess columns and enforces
     correct data types.
