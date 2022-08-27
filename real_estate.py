@@ -4,7 +4,7 @@ import numpy
 
 FILE_NAME = "train.csv"
 CUR_DIR = Path(__file__).resolve().parent
-DATA_DIR = CUR_DIR / 'data'
+DATA_DIR = CUR_DIR / "data"
 FILE_PATH = DATA_DIR / FILE_NAME
 
 MIN_AREA = 15  # Outlier range for floor area
@@ -18,7 +18,9 @@ MIN_KITCHEN = 3  # Outlier range for kitchen area
 MAX_KITCHEN = 70
 
 
-def clean_data(input_path: str,) -> pd.DataFrame:
+def clean_data(
+    input_path: str,
+) -> pd.DataFrame:
     """Function removes excess columns and enforces
     correct data types.
     :param input_path: Path to read filtered by region DataFrame
@@ -49,7 +51,5 @@ def clean_data(input_path: str,) -> pd.DataFrame:
     return df
 
 
-
 if __name__ == "__main__":
     clean_data()
-
