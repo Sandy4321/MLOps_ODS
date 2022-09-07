@@ -5,12 +5,8 @@ A short description of the project.
 
 1. python -m venv ./venv
 2. call ./venv/scripts/activate
-3. pip install Cython
-4. pip install wheel
-5. pip install snakemake
-6. pip install click
-7. pip install pandas
-8. snakemake --cores 1
+3. pip install -r requirements.txt
+4. snakemake --cores 1
 
 
 Project Organization
