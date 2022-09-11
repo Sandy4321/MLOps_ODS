@@ -3,6 +3,11 @@ MLOps_course
 
 A short description of the project.
 
+1. python -m venv ./venv
+2. call ./venv/scripts/activate
+3. pip install -r requirements.txt
+4. snakemake --cores 1
+
 
 Project Organization
 ------------
